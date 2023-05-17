@@ -31,6 +31,7 @@ Todos os código se encontram neste repositório.
 2. Escreva o código do circuito combinacional abaixo
 
 ![image](https://github.com/JoaoPedroCAS/LogicaReconfiguravel/assets/70914320/a7388e03-e082-4768-9def-6bd18e052d8b)
+
 3. Escreva o código do multiplexador 4:1 abaixo
 
 ![image](https://github.com/JoaoPedroCAS/LogicaReconfiguravel/assets/70914320/78098e25-c846-449d-aeb1-632939ccd962)
