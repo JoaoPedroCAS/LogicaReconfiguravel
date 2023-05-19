@@ -1,0 +1,11 @@
+|Exemplo1
+a => carryout.IN0
+a => carryout.IN0
+b => carryout.IN1
+b => carryout.IN1
+carryin => sum.IN1
+carryin => carryout.IN1
+carryout <= carryout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+

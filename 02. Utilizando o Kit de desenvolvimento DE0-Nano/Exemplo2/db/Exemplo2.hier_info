@@ -1,0 +1,7 @@
+|Exemplo2
+a[1] => x[1].DATAIN
+a[0] => x[0].DATAIN
+x[1] <= a[1].DB_MAX_OUTPUT_PORT_TYPE
+x[0] <= a[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
