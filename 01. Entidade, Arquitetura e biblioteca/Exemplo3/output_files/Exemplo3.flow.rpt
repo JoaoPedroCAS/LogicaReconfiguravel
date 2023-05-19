@@ -1,5 +1,5 @@
 Flow report for Exemplo3
-Wed May 17 01:25:03 2023
+Fri May 19 18:10:41 2023
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Wed May 17 01:25:03 2023       ;
+; Flow Status                     ; Successful - Fri May 19 18:10:41 2023       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; Exemplo3                                    ;
 ; Top-level Entity Name           ; Exemplo3                                    ;
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 05/17/2023 01:24:49 ;
+; Start date & time ; 05/19/2023 18:10:28 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Exemplo3            ;
 +-------------------+---------------------+
@@ -78,7 +78,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 110168740074649.168429748903996        ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 110168740074649.168453062810668        ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                                   ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)                 ; <None>        ; --          ; --             ;
 ; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --          ; eda_simulation ;
@@ -96,8 +96,8 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:15     ; 1.0                     ; 4852 MB             ; 00:00:16                           ;
-; Total                ; 00:00:15     ; --                      ; --                  ; 00:00:16                           ;
+; Analysis & Synthesis ; 00:00:13     ; 1.0                     ; 4847 MB             ; 00:00:11                           ;
+; Total                ; 00:00:13     ; --                      ; --                  ; 00:00:11                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

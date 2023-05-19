@@ -9,6 +9,6 @@ end Exemplo3;
 
 architecture logica of Exemplo3 is
 begin
-	saida <= (entrada(0) and s(0) and s(1)) or (entrada(1) and s(0) and s(1)) or
-				(entrada(2) and s(0) and s(1)) or (entrada(3) and s(0) and s(1));
+	saida <= (entrada(0) and not s(0) and not s(1)) or (entrada(1) and not s(0) and not s(1)) or
+				(entrada(2) and not s(0) and not s(1)) or (entrada(3) and not s(0) and not s(1));
 end logica;
