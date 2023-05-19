@@ -6,7 +6,7 @@
 
 2. Vá para Assigements -> Pin Planner.
 
-3. ![image-20230519165228489](C:\Users\jpedr\AppData\Roaming\Typora\typora-user-images\image-20230519165228489.png)
+3. ![image](https://github.com/JoaoPedroCAS/LogicaReconfiguravel/assets/70914320/9072c9e9-6124-4cf5-be44-4b98b01e402d)
 
    Coloque os pinos que você irá utilizar em Locations. O arquivo com a pinagem para o DE0 Nano se encontra nesta pasta.
 
@@ -16,13 +16,13 @@
 
    Clique em 1 e siga o passo a passo das imagens.
 
-   ![image-20230519170521105](C:\Users\jpedr\AppData\Roaming\Typora\typora-user-images\image-20230519170521105.png)
+   ![image](https://github.com/JoaoPedroCAS/LogicaReconfiguravel/assets/70914320/1eacb849-71b0-4b99-83ce-623a624d78d2)
 
    Duplo clique em USB-Blaster.
 
-   ![image-20230519170658879](C:\Users\jpedr\AppData\Roaming\Typora\typora-user-images\image-20230519170658879.png)
+   ![image](https://github.com/JoaoPedroCAS/LogicaReconfiguravel/assets/70914320/e4bbb9c3-4ce6-4cb2-9088-e41f568a92fb)
 
-   ![image-20230519171105492](C:\Users\jpedr\AppData\Roaming\Typora\typora-user-images\image-20230519171105492.png)
+   ![image](https://github.com/JoaoPedroCAS/LogicaReconfiguravel/assets/70914320/f9720ca7-9f01-4a5d-bd2b-973eaf49f145)
 
    Selecione a opção procurar software de driver no computador e vá ate o caminho:
 
@@ -30,11 +30,11 @@
 
 6. Selecionando a placa
 
-   ![image-20230519171637585](C:\Users\jpedr\AppData\Roaming\Typora\typora-user-images\image-20230519171637585.png)
+  ![image](https://github.com/JoaoPedroCAS/LogicaReconfiguravel/assets/70914320/029a6cc1-8670-48ef-85f8-a9a2ebd2d229)
 
 7. Gravando o programa
 
-   ![image-20230519171726075](C:\Users\jpedr\AppData\Roaming\Typora\typora-user-images\image-20230519171726075.png)
+  ![image](https://github.com/JoaoPedroCAS/LogicaReconfiguravel/assets/70914320/708a7b1c-eac7-4e71-a1c4-941033a75f53)
 
 ​	Após clicar em change files vá para output_files e escolha o arquivo .sof
 
@@ -50,7 +50,7 @@ Escreva em VHDL o código equivalente circuito proposto.
 
 Utilizar como entrada: A - DIP Switch[0], B - DIP Switch [1] e Cin - DIP Switch [2], e como saída: Sum - LED[0] e Cout - LED[1].
 
-![image-20230519173148372](C:\Users\jpedr\AppData\Roaming\Typora\typora-user-images\image-20230519173148372.png)
+![image](https://github.com/JoaoPedroCAS/LogicaReconfiguravel/assets/70914320/9556494b-344c-4049-bc4e-20fc6565df46)
 
 
 
@@ -68,7 +68,7 @@ Utilizar como entrada: DIP Switch[0] e DIP Switch [1], e como saída: LED[0] e L
 
 Refaça o exercício do módulo anterior (mux 4:1) usando um vetor na entrada e na seleção: Utilizar como entradas: DIP Switch[0-3], como seleção: KEY [0-1] e como saída: LED[0].
 
-![](C:\Users\jpedr\AppData\Roaming\Typora\typora-user-images\image-20230519180656712.png)
+![image](https://github.com/JoaoPedroCAS/LogicaReconfiguravel/assets/70914320/a8f0ae8d-cfef-4d1f-88d1-78f36427b393)
 
 # Fim do Módulo.
 
