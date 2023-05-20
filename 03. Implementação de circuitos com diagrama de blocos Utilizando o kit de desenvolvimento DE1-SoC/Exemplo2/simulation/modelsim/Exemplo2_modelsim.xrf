@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/intelFPGA_lite/18.1/LogicaReconfiguravel/03. Implementação de circuitos com diagrama de blocos Utilizando o kit de desenvolvimento DE1-SoC/Exemplo2/Exemplo2.bdf
+source_file = 1, C:/intelFPGA_lite/18.1/LogicaReconfiguravel/03. Implementação de circuitos com diagrama de blocos Utilizando o kit de desenvolvimento DE1-SoC/Exemplo2/db/Exemplo2.cbx.xml
+design_name = Exemplo2
+instance = comp, \SAIDA1~output\, SAIDA1~output, Exemplo2, 1
+instance = comp, \SAIDA2~output\, SAIDA2~output, Exemplo2, 1
+instance = comp, \SAIDA3~output\, SAIDA3~output, Exemplo2, 1
+instance = comp, \IN2~input\, IN2~input, Exemplo2, 1
+instance = comp, \IN3~input\, IN3~input, Exemplo2, 1
+instance = comp, \IN1~input\, IN1~input, Exemplo2, 1
+instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, Exemplo2, 1
