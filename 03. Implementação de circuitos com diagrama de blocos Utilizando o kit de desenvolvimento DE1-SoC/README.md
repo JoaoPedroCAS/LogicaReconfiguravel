@@ -8,15 +8,15 @@
 
 ## Criando Um Projeto
 
-![image-20230520125156814](C:\Users\jpedr\AppData\Roaming\Typora\typora-user-images\image-20230520125156814.png)
+![image](https://github.com/JoaoPedroCAS/LogicaReconfiguravel/assets/70914320/6ffd1740-471c-4eff-ba4d-1d65a2fcedae)
 
 ## Pin Assigments
 
 Para facilitar, neste repositório podemos encontrar o arquivo pin_assigments.qsf, podemos importa-lo para o projeto a fim de facilitar na hora de declarar quais pinos utilizamos.
 
-![image-20230520125516088](C:\Users\jpedr\AppData\Roaming\Typora\typora-user-images\image-20230520125516088.png)
+![image](https://github.com/JoaoPedroCAS/LogicaReconfiguravel/assets/70914320/4ede4aee-00cb-4788-b9c4-9dcab37c9c93)
 
-![image-20230520130356329](C:\Users\jpedr\AppData\Roaming\Typora\typora-user-images\image-20230520130356329.png)
+![image](https://github.com/JoaoPedroCAS/LogicaReconfiguravel/assets/70914320/d5939e12-9d34-427b-97f4-26dabbedb130)
 
 Clique nos 3 pontos, vá até o arquivo do pin_assigments e o selecione.
 
@@ -34,23 +34,21 @@ Saída: LEDR(0)
 
 Para verificar se os assigments estão corretos, após compilar o programa, basta ir para assigments -> Pin Planner, o resultado esperado é o seguinte: 
 
-![image-20230520131916715](C:\Users\jpedr\AppData\Roaming\Typora\typora-user-images\image-20230520131916715.png)
+![image](https://github.com/JoaoPedroCAS/LogicaReconfiguravel/assets/70914320/3c5b1356-2a23-4b8a-b126-9e368d2fa72d)
 
 
 
 ### Gravando o Exemplo na Placa
 
- ![image-20230520132218392](C:\Users\jpedr\AppData\Roaming\Typora\typora-user-images\image-20230520132218392.png)
+ ![image](https://github.com/JoaoPedroCAS/LogicaReconfiguravel/assets/70914320/7f42c594-f42f-4549-b72c-7b5a68180056)
 
 Clique em Hardware Setup e selecione a opção DE-SoC.
 
-![image-20230520132234213](C:\Users\jpedr\AppData\Roaming\Typora\typora-user-images\image-20230520132234213.png)
+![image](https://github.com/JoaoPedroCAS/LogicaReconfiguravel/assets/70914320/40ca3a2e-d09e-4b0f-a5ef-63175904f844)
 
 Selecione o Dispositivo 5CSEMA5
 
-
-
-![image-20230520132305366](C:\Users\jpedr\AppData\Roaming\Typora\typora-user-images\image-20230520132305366.png)
+![image](https://github.com/JoaoPedroCAS/LogicaReconfiguravel/assets/70914320/64c0b823-9bf4-4c5f-a07e-55eea5f19c25)
 
 Clique com o botão direito na placa 5CSEMA5 e vá para:  edit -> change files.
 
@@ -70,19 +68,19 @@ Agora basta clicar em Start.
 
 Implemente o circuito abaixo utilizando diagrama de blocos.
 
-![image-20230520132936211](C:\Users\jpedr\AppData\Roaming\Typora\typora-user-images\image-20230520132936211.png)
+![image](https://github.com/JoaoPedroCAS/LogicaReconfiguravel/assets/70914320/eeeab521-1530-4229-86e5-cbc036f3a495)
 
 Para criar um diagrama de blocos vá para: file -> new -> block diagram/schematic file
 
 . Onde encontro as portas lógicas?
 
-![image-20230520133347410](C:\Users\jpedr\AppData\Roaming\Typora\typora-user-images\image-20230520133347410.png)
+![image](https://github.com/JoaoPedroCAS/LogicaReconfiguravel/assets/70914320/0dba16d4-8fd6-4503-9365-3e30e4186e93)
 
 Também é possível digitar o nome da porta que será utilizada, por exemplo: xor2 retorna a porta XOR utilizada no projeto.
 
 . Já as entradas e saídas ficam em:
 
-![image-20230520133529692](C:\Users\jpedr\AppData\Roaming\Typora\typora-user-images\image-20230520133529692.png)
+![image](https://github.com/JoaoPedroCAS/LogicaReconfiguravel/assets/70914320/b5598404-ca00-4541-a45c-78a0316848d2)
 
 Também é possível gravar o código do diagrama de blocos na fpga.
 
@@ -98,15 +96,15 @@ Também é possível gravar o código do diagrama de blocos na fpga.
 
 Vá para File ->  Create/Update - > Create HDL Design File from Current FIle.
 
-![image-20230520134941646](C:\Users\jpedr\AppData\Roaming\Typora\typora-user-images\image-20230520134941646.png)
+![image](https://github.com/JoaoPedroCAS/LogicaReconfiguravel/assets/70914320/f84311bc-5467-4cf2-9e8f-25ff6599062b)
 
 Selecione VHDL
 
-![image-20230520135031340](C:\Users\jpedr\AppData\Roaming\Typora\typora-user-images\image-20230520135031340.png)
+![image](https://github.com/JoaoPedroCAS/LogicaReconfiguravel/assets/70914320/121380e0-17e9-4920-832d-31d0b9aa438c)
 
 Selecione o arquivo desejado.
 
-![image-20230520135158764](C:\Users\jpedr\AppData\Roaming\Typora\typora-user-images\image-20230520135158764.png)
+![image](https://github.com/JoaoPedroCAS/LogicaReconfiguravel/assets/70914320/569592bf-1251-418b-99b8-923af4671a74)
 
 Agora o arquivo VHDL já deve aparecer.
 
@@ -114,7 +112,7 @@ Agora o arquivo VHDL já deve aparecer.
 
 ### Exemplo 3
 
-![image-20230520135544010](C:\Users\jpedr\AppData\Roaming\Typora\typora-user-images\image-20230520135544010.png)
+![image](https://github.com/JoaoPedroCAS/LogicaReconfiguravel/assets/70914320/f8c8dc79-0a11-4e2f-9352-1124cb65cd40)
 
 ### Exemplo 4
 
